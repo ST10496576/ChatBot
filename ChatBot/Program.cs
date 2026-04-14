@@ -130,6 +130,10 @@ namespace ChatBot
                     Thread.Sleep(1000);
                     TypeText("Bot: Recording saved successfully!");
                 }
+                else
+                {
+                    TypeText("Bot: Sorry, I didn't understand that. Please choose from the menu.");
+                }
             }
         }
 
